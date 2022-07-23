@@ -1,0 +1,4 @@
+#create a branch
+#The following command creates a branch from the current branch you are pointed to 
+and switches to the newly created branch
+git checkout -b samplebranch
