@@ -2,3 +2,42 @@
 #The following command creates a branch from the current branch you are pointed to 
 and switches to the newly created branch
 git checkout -b samplebranch
+
+
+#After creating the branch and adding contents, the commit log looks like below
+
+commit a2eadbeafe0ba23ec04088cb33d14ea1d84f05a6 (HEAD -> samplebranch)
+Author: Prabhakar S <prabhakars@Prabhakars-Mac-mini.local>
+Date:   Sat Jul 23 12:42:04 2022 +0530
+
+    Created a file for workflowoverview
+
+commit 6d4265ca623ba7bc4ccd698141eb7d8154f1863e (origin/master, origin/HEAD, master)
+Author: Prabhakar <prabs003@gmail.com>
+Date:   Sat Sep 23 17:15:26 2017 +0000
+
+    git terminologies to be know
+
+commit 8afb9e814a3c88994dc1aa327a9550718f10d053
+Author: Prabhakar <Prbhakar@users.noreply.github.com>
+Date:   Sat Sep 23 22:23:32 2017 +0530
+
+    Initial commit
+
+
+# After satisfied with the above changes, pushed the new branch to the remote
+
+Prabhakars-Mac-mini:gitworkflow prabhakars$ git push origin samplebranch
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 465 bytes | 465.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'samplebranch' on GitHub by visiting:
+remote:      https://github.com/Prbhakar/gitworkflow/pull/new/samplebranch
+remote: 
+To github.com:Prbhakar/gitworkflow.git
+ * [new branch]      samplebranch -> samplebranch
+
